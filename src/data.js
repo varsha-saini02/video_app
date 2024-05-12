@@ -1,6 +1,4 @@
-require('dotenv').config();
-
-export const API_KEY = process.env.API_KEY;
+export const API_KEY = import.meta.env.VITE_API_KEY;
 
 export const value_converter = (value) => {
   if (value >= 1000000) {

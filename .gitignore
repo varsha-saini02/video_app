@@ -7,8 +7,7 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-# .gitignore
-.env
+
 
 node_modules
 dist
@@ -20,6 +19,7 @@ dist-ssr
 .vscode/*
 !.vscode/extensions.json
 .idea
+.env
 .DS_Store
 *.suo
 *.ntvs*
